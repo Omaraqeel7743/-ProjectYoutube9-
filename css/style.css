@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto:ital,wght@0,400;0,700;1,300;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Roboto', sans-serif ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 15px;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.left-sections img{
+    width: 50%;
+    padding-left: 15px;
+}
+.left-section img{
+    width: 50px;
+    border-radius: 50%; 
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.center-section{
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+.center-section form{
+    display: flex;
+    height: 40px;
+    width: 630px;
+}
+.center-section form input{
+    width: 100%;
+    border-radius: 2px 0 0 2px;
+    padding: 15px;
+    font-size: 1.6rem; /* = 16px*/
+    border: 2px solid #d3d3d3;
+    border-right: none;
+}
+.center-section form button{
+    width: 65px;
+    border:2px solid #d3d3d3 ;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+.center-section .mic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.right-section a{
+    padding-left: 15px;
+    color: black;
+}
+
+.content-area{
+    height: calc(100vh - -369px);/* nav وتعني خذ طول الصفحة كامل - طول */
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+aside{
+    height: 100%;
+    width: 200px;
+    /* width: 660px; */
+    background-color: white;
+    /* overflow-y: auto; */
+    overflow: auto;
+}
+nav{
+    width: 100%;
+    flex-direction: column;
+    margin: 16px 0;
+    padding-right: 15px;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+.active{
+    background-color: #eeebeb;
+}
+.nav-link:hover{
+    background-color: #eeebeb;
+}
+.nav-link span{
+    margin-left: 27px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+hr{
+    margin: 10px 0;
+    height: 2px;
+    background-color: rgb(211, 209, 209);
+    border: none;
+}
+.subscription{
+    font-size: 15px;
+    color: #606060;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+.img-ch{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1pc solid #eee;
+}
+
+
+
+        /* Start Recnt News  */
+        /* .recent_news{
+            border: 3px solid #b81c39;
+            border-radius: 15px;
+           } */
+           .recent_news .btn-danger{
+            background-color: #46afed;
+            border-color: #46afed;
+           }
+           .recent_news .btn-danger:hover{
+            background-color: #033aff;
+           }
+    
+    
+           /* End Recnt News  */
+           .btn-group button{
+            font-size: 13px;
+            font-weight: bold;
+            background-color: white;
+            color: black;
+            border-radius: 15px;
+           }
